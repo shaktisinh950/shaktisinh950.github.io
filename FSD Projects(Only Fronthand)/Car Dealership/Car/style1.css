@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+
+#gallery tr,td {
+    padding: 30px;
+}
+
+#bookvisit {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+
+
+#bookvisit input,
+select {
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#gallery img{
+    height: auto;
+    width: 100%;
+}
+
+#gallery img:hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+
+@media (min-width:992px) {
+    #video {
+        height: 550px;
+    }
+
+    #table1 {
+        width: 50%;
+        float: left;
+    }
+
+    #table2 {
+        width: 50%;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    #video {
+        height: 400px;
+    }
+
+    #table1 {
+        width: 50%;
+        float: left;
+    }
+
+    #table2 {
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px) {
+    #video {
+        height: 300px;
+    }
+
+    #table1 {
+        width: 100%;
+    }
+
+    #table2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    #scrollspy {
+        display: none;
+    }
+}
