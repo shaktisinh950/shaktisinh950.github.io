@@ -1,0 +1,5 @@
+Player p_id=1  , player_name=MS Dhoni  , p_type=Wicketkeeper
+matches=377  , runs=7271  , played_bowl=5406
+wickets=0  , bowl=12
+bating_avg=19.0  , bowl_str=0.0
+Price : 1352.5447782249787
